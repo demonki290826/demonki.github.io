@@ -47,16 +47,14 @@
 }
 #thanhdieuhuong li:hover {
     text-shadow: 5px 5px 10px black,0 0 30px blue, 0 0 5px darkblue;
-}
-
-
-.topbanchay1 {
     display: inline-block;
     list-style-type: none;
     overflow: auto;
 }
 
-.topbanchay1 li {
+
+
+.hang1 div {
     color: black;
     float: left;
     background-color: #ff1f17;
@@ -65,8 +63,75 @@
     margin: 10px 10px 10px 10px;
 }
 
-.topbanchay1 li:hover {
-  background-color: aqua;
+
+.hang1 :hover {
+  background-color: rgb(0, 209, 209);
+}
+
+@media (max-widh: 800px) {
+    .hang1 {
+        flex-direction: column;
+    }
+}
+
+.hang2 div {
+    color: black;
+    float: left;
+    background-color: #ff1f17;
+    border: 1px solid #ddd;
+    text-decoration: backgroug-color 3s;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.hang2 :hover {
+  background-color: rgb(0, 209, 209);
+}
+
+@media (max-widh: 800px) {
+    .hang2 {
+        flex-direction: column;
+    }
+}
+
+.hang3 div {
+    color: black;
+    float: left;
+    background-color: #ff1f17;
+    border: 1px solid #ddd;
+    text-decoration: backgroug-color 3s;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.hang3 :hover {
+  background-color: rgb(0, 209, 209);
+}
+
+@media (max-widh: 800px) {
+    .hang3 {
+        flex-direction: column;
+    }
+}
+
+.hang4 div {
+    color: black;
+    float: left;
+    background-color: #ff1f17;
+    border: 1px solid #ddd;
+    text-decoration: backgroug-color 3s;
+    margin: 10px 10px 10px 10px;
+}
+
+
+.hang4 :hover {
+  background-color: rgb(0, 209, 209);
+}
+
+@media (max-widh: 800px) {
+    .hang4 {
+        flex-direction: column;
+    }
 }
 
 header {
@@ -75,8 +140,11 @@ header {
 
 }
 
-#topbanchay {
-    text-align: center;
+
+@media (max-width: 800px) {
+    .topbanchay {
+        flex-direction: column;
+    }
 }
 
 #thanhcuon {
@@ -89,7 +157,7 @@ header {
     transform-style: preserve-3d;
 }
 #container {
-    width: 25%;
+    width: 70%;
     margin: auto;
     border: solid rgb(172, 255, 17) 2px;
     overflow-x: scroll;
@@ -156,43 +224,58 @@ header {
     </div>
 
     <div id="topbanchay">
-        <ul class="topbanchay1">
-        <li>
-            <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
-            <h4>Máy tính</h4>
-            <h3>Giá: 10.000.000 đ</h3>
-        </li>
+        <div class="hang1">
+            <div>
+                <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
+                <h4>Máy tính</h4>
+                <h3>Giá: 10.000.000 đ</h3>
+            </div>
+            <div>
+                <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
+                <h4>Máy tính</h4>
+                <h3>Giá: 10.000.000 đ</h3>
+            </div>
+        </div>
 
-        <li>
-            <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
-            <h4>Máy tính</h4>
-            <h3>Giá: 10.000.000 đ</h3>
-        </li>
+        <div class="hang2">
+            <div>
+                <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
+                <h4>Máy tính</h4>
+                <h3>Giá: 10.000.000 đ</h3>
+            </div>
+            <div>
+                <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
+                <h4>Máy tính</h4>
+                <h3>Giá: 10.000.000 đ</h3>
+            </div>
+        </div>
 
-        <li>
-            <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
-            <h4>Máy tính</h4>
-            <h3>Giá: 10.000.000 đ</h3>
-        </li>
+        <div class="hang3">
+            <div>
+                <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
+                <h4>Máy tính</h4>
+                <h3>Giá: 10.000.000 đ</h3>
+            </div>
+            <div>
+                <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
+                <h4>Máy tính</h4>
+                <h3>Giá: 10.000.000 đ</h3>
+            </div>
+        </div>
 
-        <li>
-            <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
-            <h4>Máy tính</h4>
-            <h3>Giá: 10.000.000 đ</h3>
-        </li>
+        <div class="hang4">
+            <div>
+                <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
+                <h4>Máy tính</h4>
+                <h3>Giá: 10.000.000 đ</h3>
+            </div>
+            <div>
+                <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
+                <h4>Máy tính</h4>
+                <h3>Giá: 10.000.000 đ</h3>
+            </div>
+        </div>
 
-        <li>
-            <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
-            <h4>Máy tính</h4>
-            <h3>Giá: 10.000.000 đ</h3>
-        </li>
-
-        <li>
-            <img src="https://cdn.fptshop.com.vn/Uploads/Originals/2023/2/16/638121568991277911_msi-gaming-gf63-thin-11-den-dd.jpg" width="180" height="200">
-            <h4>Máy tính</h4>
-            <h3>Giá: 10.000.000 đ</h3>
-        </li>
-        </ul>
     </div>
 
     <div id="container">
