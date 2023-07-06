@@ -85,7 +85,6 @@
     margin: 10px 10px 10px 10px;
 }
 
-
 .hang2 :hover {
   background-color: rgb(0, 209, 209);
 }
@@ -147,6 +146,10 @@ header {
     .topbanchay {
         flex-direction: column;
     }
+}
+
+#topbanchay {
+    text-align: center;
 }
 
 #thanhcuon {
@@ -229,6 +232,20 @@ header {
         overflow: hidden;
     }
 }
+
+#container1 {
+    display: block;
+    padding: 0 10px;
+    width: 20px;
+    height: 20px;
+    list-style-type: none;
+    background-color: #ff0127;
+    text-decoration: none;
+}
+
+#container1: hover {
+    
+}
 </style>
 
     </head>
@@ -247,17 +264,7 @@ header {
                 <div id="logo"><img src="hinhanh/logohtthegioidienthoai.png" width="50px" height="50px"></div>
             </div>
 
-            <div class="nav">
-                <input type="checkbox" id="nav-check">
-                <div class="nav-header">...</div>
-                <label for="nav-check">
-                    <span>1</span>
-                    <span>2</span>
-                    <span>3</span>
-                    <span>4</span>
-                </label>
-            </div>
-        </header>
+        </header> 
 
     <div id="top">
         <h2>TOP BÁN CHẠY</h2>
@@ -319,14 +326,14 @@ header {
     </div>
 
     <div id="container">
-        <div><a href="#"> >> </a></div>
         <div class="red"></div>
         <div class="blue"></div>
         <div class="green"></div>
         <div class="black"></div>
-        <div class="white"></div>
-        <div><a href="#"> >> </a></div>
+        <div class="white"></div>  
     </div>
+    <div id="container1"><a href="#"> << </a></div>
+    <div id="container2"><a href="#"> >> </a></div>
 
     </body>
 </html>
